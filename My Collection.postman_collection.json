@@ -1,0 +1,89 @@
+{
+  "info": {
+    "_postman_id": "ac000f90-5d96-40cb-8ed8-f3f5a646038a",
+    "name": "My Collection",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "60359006",
+    "_collection_link": "https://go.postman.co/collection/60359006-ac000f90-5d96-40cb-8ed8-f3f5a646038a?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "monobank_api_Voloshchuk",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.monobank.ua/bank/currency",
+          "protocol": "https",
+          "host": [
+            "api",
+            "monobank",
+            "ua"
+          ],
+          "path": [
+            "bank",
+            "currency"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "currency_rates",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.monobank.ua/bank/currency",
+              "protocol": "https",
+              "host": [
+                "api",
+                "monobank",
+                "ua"
+              ],
+              "path": [
+                "bank",
+                "currency"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sun, 22 Nov 2026 11:23:24 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "8492"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Server",
+              "value": "n/a"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Trace-Id",
+              "value": "a9b12ca29e7668f6bb2a8d6298851687"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"currencyCodeA\": 840,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298473,\n    \"rateBuy\": 44.91,\n    \"rateSell\": 45.4009\n  },\n  {\n    \"currencyCodeA\": 978,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298473,\n    \"rateBuy\": 49.26,\n    \"rateSell\": 50\n  },\n  {\n    \"currencyCodeA\": 978,\n    \"currencyCodeB\": 840,\n    \"date\": 1795298473,\n    \"rateBuy\": 1.094,\n    \"rateSell\": 1.104\n  },\n  {\n    \"currencyCodeA\": 826,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346592,\n    \"rateCross\": 59.6342\n  },\n  {\n    \"currencyCodeA\": 392,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346585,\n    \"rateCross\": 0.2871\n  },\n  {\n    \"currencyCodeA\": 756,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346582,\n    \"rateCross\": 54.2258\n  },\n  {\n    \"currencyCodeA\": 156,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346592,\n    \"rateCross\": 6.81\n  },\n  {\n    \"currencyCodeA\": 784,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346589,\n    \"rateCross\": 12.3662\n  },\n  {\n    \"currencyCodeA\": 971,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 0.6938\n  },\n  {\n    \"currencyCodeA\": 8,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346583,\n    \"rateCross\": 0.5571\n  },\n  {\n    \"currencyCodeA\": 51,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346593,\n    \"rateCross\": 0.1262\n  },\n  {\n    \"currencyCodeA\": 973,\n    \"currencyCodeB\": 980,\n    \"date\": 1795281148,\n    \"rateCross\": 0.0497\n  },\n  {\n    \"currencyCodeA\": 32,\n    \"currencyCodeB\": 980,\n    \"date\": 1795345391,\n    \"rateCross\": 0.0287\n  },\n  {\n    \"currencyCodeA\": 36,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346396,\n    \"rateCross\": 30.3579\n  },\n  {\n    \"currencyCodeA\": 944,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346411,\n    \"rateCross\": 26.7355\n  },\n  {\n    \"currencyCodeA\": 50,\n    \"currencyCodeB\": 980,\n    \"date\": 1795343413,\n    \"rateCross\": 0.3668\n  },\n  {\n    \"currencyCodeA\": 975,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 25.3424\n  },\n  {\n    \"currencyCodeA\": 48,\n    \"currencyCodeB\": 980,\n    \"date\": 1795343030,\n    \"rateCross\": 120.4531\n  },\n  {\n    \"currencyCodeA\": 108,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 0.0135\n  },\n  {\n    \"currencyCodeA\": 96,\n    \"currencyCodeB\": 980,\n    \"date\": 1795236826,\n    \"rateCross\": 35.2375\n  },\n  {\n    \"currencyCodeA\": 68,\n    \"currencyCodeB\": 980,\n    \"date\": 1795295482,\n    \"rateCross\": 3.8623\n  },\n  {\n    \"currencyCodeA\": 986,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346542,\n    \"rateCross\": 7.6543\n  },\n  {\n    \"currencyCodeA\": 72,\n    \"currencyCodeB\": 980,\n    \"date\": 1795268954,\n    \"rateCross\": 3.3732\n  },\n  {\n    \"currencyCodeA\": 933,\n    \"currencyCodeB\": 980,\n    \"date\": 1795341741,\n    \"rateCross\": 15.1489\n  },\n  {\n    \"currencyCodeA\": 124,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346586,\n    \"rateCross\": 31.7602\n  },\n  {\n    \"currencyCodeA\": 976,\n    \"currencyCodeB\": 980,\n    \"date\": 1795336156,\n    \"rateCross\": 0.02\n  },\n  {\n    \"currencyCodeA\": 152,\n    \"currencyCodeB\": 980,\n    \"date\": 1795345014,\n    \"rateCross\": 0.0445\n  },\n  {\n    \"currencyCodeA\": 170,\n    \"currencyCodeB\": 980,\n    \"date\": 1795326666,\n    \"rateCross\": 0.0132\n  },\n  {\n    \"currencyCodeA\": 188,\n    \"currencyCodeB\": 980,\n    \"date\": 1795331286,\n    \"rateCross\": 0.1026\n  },\n  {\n    \"currencyCodeA\": 192,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 1.8787\n  },\n  {\n    \"currencyCodeA\": 203,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346600,\n    \"rateCross\": 2.043\n  },\n  {\n    \"currencyCodeA\": 262,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 0.2523\n  },\n  {\n    \"currencyCodeA\": 208,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346586,\n    \"rateCross\": 6.6819\n  },\n  {\n    \"currencyCodeA\": 12,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346358,\n    \"rateCross\": 0.3316\n  },\n  {\n    \"currencyCodeA\": 818,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346546,\n    \"rateCross\": 0.8449\n  },\n  {\n    \"currencyCodeA\": 230,\n    \"currencyCodeB\": 980,\n    \"date\": 1795339950,\n    \"rateCross\": 0.2811\n  },\n  {\n    \"currencyCodeA\": 981,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346598,\n    \"rateCross\": 17.7066\n  },\n  {\n    \"currencyCodeA\": 936,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346395,\n    \"rateCross\": 3.85\n  },\n  {\n    \"currencyCodeA\": 270,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 0.6217\n  },\n  {\n    \"currencyCodeA\": 324,\n    \"currencyCodeB\": 980,\n    \"date\": 1795268260,\n    \"rateCross\": 0.0051\n  },\n  {\n    \"currencyCodeA\": 344,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346598,\n    \"rateCross\": 5.7974\n  },\n  {\n    \"currencyCodeA\": 191,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 6.5778\n  },\n  {\n    \"currencyCodeA\": 348,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346598,\n    \"rateCross\": 0.1342\n  },\n  {\n    \"currencyCodeA\": 360,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346588,\n    \"rateCross\": 0.0024\n  },\n  {\n    \"currencyCodeA\": 376,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346518,\n    \"rateCross\": 13.711\n  },\n  {\n    \"currencyCodeA\": 356,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346266,\n    \"rateCross\": 0.4902\n  },\n  {\n    \"currencyCodeA\": 368,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346189,\n    \"rateCross\": 0.03\n  },\n  {\n    \"currencyCodeA\": 352,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346252,\n    \"rateCross\": 0.364\n  },\n  {\n    \"currencyCodeA\": 400,\n    \"currencyCodeB\": 980,\n    \"date\": 1795344199,\n    \"rateCross\": 64.1435\n  },\n  {\n    \"currencyCodeA\": 404,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346538,\n    \"rateCross\": 0.3491\n  },\n  {\n    \"currencyCodeA\": 417,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346383,\n    \"rateCross\": 0.5189\n  },\n  {\n    \"currencyCodeA\": 116,\n    \"currencyCodeB\": 980,\n    \"date\": 1795339276,\n    \"rateCross\": 0.0111\n  },\n  {\n    \"currencyCodeA\": 410,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346168,\n    \"rateCross\": 0.034\n  },\n  {\n    \"currencyCodeA\": 414,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346547,\n    \"rateCross\": 147.1758\n  },\n  {\n    \"currencyCodeA\": 398,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346595,\n    \"rateCross\": 0.0996\n  },\n  {\n    \"currencyCodeA\": 418,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346340,\n    \"rateCross\": 0.002\n  },\n  {\n    \"currencyCodeA\": 422,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346498,\n    \"rateCross\": 0.0005\n  },\n  {\n    \"currencyCodeA\": 144,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346406,\n    \"rateCross\": 0.1366\n  },\n  {\n    \"currencyCodeA\": 434,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 6.9787\n  },\n  {\n    \"currencyCodeA\": 504,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346276,\n    \"rateCross\": 4.5854\n  },\n  {\n    \"currencyCodeA\": 498,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346600,\n    \"rateCross\": 2.4972\n  },\n  {\n    \"currencyCodeA\": 969,\n    \"currencyCodeB\": 980,\n    \"date\": 1795273935,\n    \"rateCross\": 0.0099\n  },\n  {\n    \"currencyCodeA\": 807,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346368,\n    \"rateCross\": 0.811\n  },\n  {\n    \"currencyCodeA\": 496,\n    \"currencyCodeB\": 980,\n    \"date\": 1795343875,\n    \"rateCross\": 0.0125\n  },\n  {\n    \"currencyCodeA\": 480,\n    \"currencyCodeB\": 980,\n    \"date\": 1795344788,\n    \"rateCross\": 0.9677\n  },\n  {\n    \"currencyCodeA\": 454,\n    \"currencyCodeB\": 980,\n    \"date\": 1795282032,\n    \"rateCross\": 0.0264\n  },\n  {\n    \"currencyCodeA\": 484,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346578,\n    \"rateCross\": 2.3952\n  },\n  {\n    \"currencyCodeA\": 458,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346600,\n    \"rateCross\": 11.0545\n  },\n  {\n    \"currencyCodeA\": 943,\n    \"currencyCodeB\": 980,\n    \"date\": 1795285327,\n    \"rateCross\": 0.7173\n  },\n  {\n    \"currencyCodeA\": 516,\n    \"currencyCodeB\": 980,\n    \"date\": 1795345571,\n    \"rateCross\": 2.6097\n  },\n  {\n    \"currencyCodeA\": 566,\n    \"currencyCodeB\": 980,\n    \"date\": 1795344198,\n    \"rateCross\": 0.0325\n  },\n  {\n    \"currencyCodeA\": 558,\n    \"currencyCodeB\": 980,\n    \"date\": 1795301505,\n    \"rateCross\": 1.2396\n  },\n  {\n    \"currencyCodeA\": 578,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346557,\n    \"rateCross\": 4.6627\n  },\n  {\n    \"currencyCodeA\": 524,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346279,\n    \"rateCross\": 0.3059\n  },\n  {\n    \"currencyCodeA\": 554,\n    \"currencyCodeB\": 980,\n    \"date\": 1795340625,\n    \"rateCross\": 25.0361\n  },\n  {\n    \"currencyCodeA\": 512,\n    \"currencyCodeB\": 980,\n    \"date\": 1795343867,\n    \"rateCross\": 117.985\n  },\n  {\n    \"currencyCodeA\": 604,\n    \"currencyCodeB\": 980,\n    \"date\": 1795334716,\n    \"rateCross\": 13.1366\n  },\n  {\n    \"currencyCodeA\": 608,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346462,\n    \"rateCross\": 0.7119\n  },\n  {\n    \"currencyCodeA\": 586,\n    \"currencyCodeB\": 980,\n    \"date\": 1795342378,\n    \"rateCross\": 0.1643\n  },\n  {\n    \"currencyCodeA\": 985,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346600,\n    \"rateCross\": 11.2643\n  },\n  {\n    \"currencyCodeA\": 600,\n    \"currencyCodeB\": 980,\n    \"date\": 1795337742,\n    \"rateCross\": 0.0071\n  },\n  {\n    \"currencyCodeA\": 634,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346547,\n    \"rateCross\": 12.4645\n  },\n  {\n    \"currencyCodeA\": 946,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346600,\n    \"rateCross\": 9.3432\n  },\n  {\n    \"currencyCodeA\": 941,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346400,\n    \"rateCross\": 0.4244\n  },\n  {\n    \"currencyCodeA\": 682,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346404,\n    \"rateCross\": 12.1184\n  },\n  {\n    \"currencyCodeA\": 690,\n    \"currencyCodeB\": 980,\n    \"date\": 1795344884,\n    \"rateCross\": 3.148\n  },\n  {\n    \"currencyCodeA\": 938,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 0.0045\n  },\n  {\n    \"currencyCodeA\": 752,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346595,\n    \"rateCross\": 4.4646\n  },\n  {\n    \"currencyCodeA\": 702,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346576,\n    \"rateCross\": 35.2425\n  },\n  {\n    \"currencyCodeA\": 694,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 0.002\n  },\n  {\n    \"currencyCodeA\": 706,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 0.0811\n  },\n  {\n    \"currencyCodeA\": 968,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 1.2164\n  },\n  {\n    \"currencyCodeA\": 748,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 2.5906\n  },\n  {\n    \"currencyCodeA\": 764,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346596,\n    \"rateCross\": 1.3415\n  },\n  {\n    \"currencyCodeA\": 972,\n    \"currencyCodeB\": 980,\n    \"date\": 1795340933,\n    \"rateCross\": 4.9272\n  },\n  {\n    \"currencyCodeA\": 788,\n    \"currencyCodeB\": 980,\n    \"date\": 1795345417,\n    \"rateCross\": 15.0485\n  },\n  {\n    \"currencyCodeA\": 949,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346599,\n    \"rateCross\": 0.9001\n  },\n  {\n    \"currencyCodeA\": 901,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346567,\n    \"rateCross\": 1.3786\n  },\n  {\n    \"currencyCodeA\": 834,\n    \"currencyCodeB\": 980,\n    \"date\": 1795343111,\n    \"rateCross\": 0.0171\n  },\n  {\n    \"currencyCodeA\": 800,\n    \"currencyCodeB\": 980,\n    \"date\": 1795345512,\n    \"rateCross\": 0.0107\n  },\n  {\n    \"currencyCodeA\": 858,\n    \"currencyCodeB\": 980,\n    \"date\": 1795345499,\n    \"rateCross\": 1.1175\n  },\n  {\n    \"currencyCodeA\": 860,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346546,\n    \"rateCross\": 0.0037\n  },\n  {\n    \"currencyCodeA\": 704,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346585,\n    \"rateCross\": 0.0017\n  },\n  {\n    \"currencyCodeA\": 950,\n    \"currencyCodeB\": 980,\n    \"date\": 1795345904,\n    \"rateCross\": 0.0761\n  },\n  {\n    \"currencyCodeA\": 952,\n    \"currencyCodeB\": 980,\n    \"date\": 1795345025,\n    \"rateCross\": 0.0761\n  },\n  {\n    \"currencyCodeA\": 886,\n    \"currencyCodeB\": 980,\n    \"date\": 1795298405,\n    \"rateCross\": 0.027\n  },\n  {\n    \"currencyCodeA\": 710,\n    \"currencyCodeB\": 980,\n    \"date\": 1795346601,\n    \"rateCross\": 2.6091\n  }\n]"
+        }
+      ]
+    }
+  ]
+}
